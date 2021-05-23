@@ -1,6 +1,19 @@
-function seek() {
+function seek(value) {
+    let birthday = document.getElementById('birthday');
+    let congratulation = document.getElementById('congratulation');
+    if (hasBirthday(value)) {
+        view(congratulation)
+        noneView(birthday)
+    } else {
+        view(birthday)
+        noneView(congratulation)
+    }
     dark()
     takaraView()
+}
+
+function hasBirthday(value) {
+    return value === 'birthday'
 }
 
 function hide() {

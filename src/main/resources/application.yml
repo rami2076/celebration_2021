@@ -1,7 +1,7 @@
 spring:
   security:
     user:
-      name: sergey
-      password: sergey
+      name: sergeies
+      password: sergeies
       roles: manager
 #debug: true
