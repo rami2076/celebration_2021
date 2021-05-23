@@ -5,6 +5,7 @@ window.onload = function () {
         // normal options...
         infinite: true,
         dots: true,
+        swipeToSlide:true,
 
         // the magic
         responsive: [{
