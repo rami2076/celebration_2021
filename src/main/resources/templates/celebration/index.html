@@ -5,7 +5,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link href="https://getbootstrap.com/docs/4.0/examples/signin/signin.css" rel="stylesheet" crossorigin="anonymous"/>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -33,62 +34,47 @@
 </head>
 <body>
 
-<div id="explorer" onmousedown="party.confetti(this)">
+<div class="outer">
 
-    <button class="waves-effect waves-light btn " onclick="seek()">おめでとうボタン</button>
-    <button class="waves-effect waves-light btn " onclick="hide()">めだたいボタン</button>
-    <img id="takara" class="hide"
-         src="https://3.bp.blogspot.com/-ddxthgZW4kI/V2ub9fWGyTI/AAAAAAAA7to/gTB-dajOTbQWLfgw0Le-qDZ6x-OpezTAQCLcB/s800/kaizoku_takarabako.png"></img>
+    <div id="explorer" onmousedown="party.confetti(this)">
 
-</div>
+        <button class="waves-effect waves-light btn " onclick="seek()">おめでとうボタン</button>
+        <button class="waves-effect waves-light btn " onclick="hide()">めだたいボタン</button>
+        <img id="takara" class="hide"
+             src="https://3.bp.blogspot.com/-ddxthgZW4kI/V2ub9fWGyTI/AAAAAAAA7to/gTB-dajOTbQWLfgw0Le-qDZ6x-OpezTAQCLcB/s800/kaizoku_takarabako.png"></img>
 
-<div id="gallery-box" class="hide" onmousedown="party.confetti(this)">
-    <button class="waves-effect waves-light btn " onclick="seek()">おめでとうボタン</button>
-    <button class="waves-effect waves-light btn " id="sssssssss" onclick="hide()">めだたいボタン</button>
-
-
-    <div class="variants-container">
-        <div class="variants"><img
-                src="https://imgur.com/LyztE9I.png" alt=""></div>
-        <div class="variants"><img
-                src="https://imgur.com/Y4ODQ07.png" alt=""></div>
-        <div class="variants"><img
-                src="https://imgur.com/7tKeGyZ.png" alt=""></div>
-        <div class="variants"><img
-                src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/04.jpg" alt=""></div>
-        <div class="variants"><img
-                src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/05.jpg" alt=""></div>
-        <div class="variants"><img
-                src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/06.jpg" alt=""></div>
-        <div class="variants"><img
-                src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/07.jpg" alt=""></div>
-        <div class="variants"><img
-                src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/08.jpg" alt=""></div>
     </div>
 
+    <div id="gallery-box" class="hide" onmousedown="party.confetti(this)">
+        <button class="waves-effect waves-light btn " onclick="seek()">おめでとうボタン</button>
+        <button class="waves-effect waves-light btn " id="sssssssss" onclick="hide()">めだたいボタン</button>
 
-    <!--    <div class="slide-for">-->
 
-    <!--    </div>-->
-    <!--    <div class="slider-nav">-->
-    <!--        <div class="variants"><img-->
-    <!--                src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/01.jpg" alt=""></div>-->
-    <!--        <div class="variants"><img-->
-    <!--                src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/02.jpg" alt=""></div>-->
-    <!--        <div class="variants"><img-->
-    <!--                src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/03.jpg" alt=""></div>-->
-    <!--        <div class="variants"><img-->
-    <!--                src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/04.jpg" alt=""></div>-->
-    <!--        <div class="variants"><img-->
-    <!--                src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/05.jpg" alt=""></div>-->
-    <!--        <div class="variants"><img-->
-    <!--                src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/06.jpg" alt=""></div>-->
-    <!--        <div class="variants"><img-->
-    <!--                src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/07.jpg" alt=""></div>-->
-    <!--        <div class="variants"><img-->
-    <!--                src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/08.jpg" alt=""></div>-->
-    <!--    </div>-->
+        <div class="variants-container">
+            <div class="variants"><img
+                    src="https://imgur.com/LyztE9I.png" alt=""></div>
+            <div class="variants"><img
+                    src="https://imgur.com/Y4ODQ07.png" alt=""></div>
+            <div class="variants"><img
+                    src="https://imgur.com/7tKeGyZ.png" alt=""></div>
+            <div class="variants"><img
+                    src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/04.jpg" alt="">
+            </div>
+            <div class="variants"><img
+                    src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/05.jpg" alt="">
+            </div>
+            <div class="variants"><img
+                    src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/06.jpg" alt="">
+            </div>
+            <div class="variants"><img
+                    src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/07.jpg" alt="">
+            </div>
+            <div class="variants"><img
+                    src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/08.jpg" alt="">
+            </div>
+        </div>
 
+    </div>
 
 </div>
 
