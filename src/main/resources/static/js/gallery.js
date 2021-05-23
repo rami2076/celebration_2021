@@ -50,7 +50,10 @@ window.onload = function () {
         }, {
 
             breakpoint: 300,
-            settings: "unslick" // destroys slick
+            slidesToShow: 1,
+            dots: true
+
+            // settings: "unslick" // destroys slick
 
         }]
     });
