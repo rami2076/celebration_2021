@@ -4,4 +4,4 @@ spring:
       name: sergey
       password: sergey
       roles: manager
-debug: true
+#debug: true

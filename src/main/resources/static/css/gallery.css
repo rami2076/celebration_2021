@@ -4,19 +4,34 @@ body {
     background-color: #CCC;
 }
 
-.variants {
+/*.variants {*/
+/*    cursor: pointer;*/
+/*    border: 1px solid #CDCDCD;*/
+/*    text-align: center;*/
+/*    !*width: 500px;*!*/
+/*    margin: 0 auto;*/
+/*    height: 223px;*/
+/*    !*float: left;*!*/
+/*}*/
+
+/*.variants img {*/
+/*    width: 100%;*/
+/*    !*height: 223px;*!*/
+/*    !*float: left;*!*/
+/*}*/
+
+.variants{
     cursor: pointer;
     border: 1px solid #CDCDCD;
     text-align: center;
-    width: 500px;
     margin: 0 auto;
-    /*height: 223px;*/
+    /*display: none;*/
     /*float: left;*/
+    height: auto;
+    min-height: 1px;
+
 }
 
-.variants img {
-    width: 100%;
-    /*height: 223px;*/
-    /*float: left;*/
+.variants img{
+    max-width: 100vw !important;
 }
-
