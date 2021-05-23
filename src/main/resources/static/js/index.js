@@ -6,6 +6,7 @@ function seek() {
 function hide() {
     light()
     galleryView()
+    slickInit()
 }
 
 

@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
 
 
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
@@ -35,15 +34,14 @@
 
     <button class="waves-effect waves-light btn " onclick="seek()">おめでとうボタン</button>
     <button class="waves-effect waves-light btn " onclick="hide()">めだたいボタン</button>
-    <!--    <div id="square" class="color display"></div>-->
     <img id="takara" class="hide"
          src="https://3.bp.blogspot.com/-ddxthgZW4kI/V2ub9fWGyTI/AAAAAAAA7to/gTB-dajOTbQWLfgw0Le-qDZ6x-OpezTAQCLcB/s800/kaizoku_takarabako.png"></img>
 
 </div>
 
-<div id="gallery-box" class="hide">
+<div id="gallery-box" class="hide" onmousedown="party.confetti(this)">
     <button class="waves-effect waves-light btn " onclick="seek()">おめでとうボタン</button>
-    <button class="waves-effect waves-light btn " onclick="hide()">めだたいボタン</button>
+    <button class="waves-effect waves-light btn " id="sssssssss" onclick="hide()">めだたいボタン</button>
 
 
     <div class="variants-container">
@@ -65,20 +63,31 @@
                 src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/08.jpg" alt=""></div>
     </div>
 
+
+<!--    <div class="slide-for">-->
+
+<!--    </div>-->
+<!--    <div class="slider-nav">-->
+<!--        <div class="variants"><img-->
+<!--                src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/01.jpg" alt=""></div>-->
+<!--        <div class="variants"><img-->
+<!--                src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/02.jpg" alt=""></div>-->
+<!--        <div class="variants"><img-->
+<!--                src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/03.jpg" alt=""></div>-->
+<!--        <div class="variants"><img-->
+<!--                src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/04.jpg" alt=""></div>-->
+<!--        <div class="variants"><img-->
+<!--                src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/05.jpg" alt=""></div>-->
+<!--        <div class="variants"><img-->
+<!--                src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/06.jpg" alt=""></div>-->
+<!--        <div class="variants"><img-->
+<!--                src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/07.jpg" alt=""></div>-->
+<!--        <div class="variants"><img-->
+<!--                src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/08.jpg" alt=""></div>-->
+<!--    </div>-->
+
+
 </div>
 
-
-<!--<script type="text/javascript">-->
-<!--    $('.variants-container').slick({-->
-<!--        infinite: true,-->
-<!--        dots: true,-->
-<!--        slidesToShow: 3,-->
-<!--        slidesToScroll: 3,-->
-<!--        initialSlide: 3-->
-<!--    });-->
-
-<!--    $('.slick-slider').slick('slickGoTo', 1);-->
-
-<!--</script>-->
 </body>
 </html>
