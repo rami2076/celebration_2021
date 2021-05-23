@@ -1,0 +1,6 @@
+spring:
+  security:
+    user:
+      name: sergey
+      password: sergey
+      roles: manager

@@ -1,0 +1,22 @@
+html,
+body {
+    padding: 20px;
+    background-color: #CCC;
+}
+
+.variants {
+    cursor: pointer;
+    border: 1px solid #CDCDCD;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    /*height: 223px;*/
+    /*float: left;*/
+}
+
+.variants img {
+    width: 100%;
+    /*height: 223px;*/
+    /*float: left;*/
+}
+
