@@ -49,9 +49,11 @@ window.onload = function () {
 
         }, {
 
-            breakpoint: 300,
-            slidesToShow: 1,
-            dots: true
+            breakpoint: 428,
+            settings: {
+                slidesToShow: 1,
+                dots: true
+            }
 
             // settings: "unslick" // destroys slick
 
