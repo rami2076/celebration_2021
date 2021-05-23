@@ -24,7 +24,7 @@ window.onload = function () {
     //     centerMode: true,
     //     focusOnSelect: true
     // });
-     $(".variants-container").slick({
+    $(".variants-container").slick({
 
         // normal options...
         infinite: true,
@@ -57,7 +57,6 @@ window.onload = function () {
 
         }]
     });
-
 
 };
 const slickInit = () => {

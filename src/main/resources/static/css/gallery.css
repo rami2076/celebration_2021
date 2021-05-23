@@ -33,5 +33,17 @@ body {
 }
 
 .variants img{
+    /*max-height: 100% !important;*/
+
     max-width: 100% !important;
 }
+
+/*.variants-container div {*/
+/*    !*background-repeat: no-repeat;*!*/
+/*    !*background-size: cover;*!*/
+/*    !*background-position: center;*!*/
+/*    height: 100vh;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+
