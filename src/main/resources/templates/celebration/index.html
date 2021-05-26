@@ -3,6 +3,7 @@
 <html lang="ja" xmlns:th="http://www.thymeleaf.org">
 <!--<html lang="ja">-->
 <head>
+    <meta name="robots" content="noindex,nofollow,noarchive" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet"
@@ -26,8 +27,51 @@
     <script type="text/javascript"
             src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
+    <script src="https://riversun.github.io/jsframe/jsframe.js"></script>
+
+    <img style="display: none;" th:src="@{/img/photo_001.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_002.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_003.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_004.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_005.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_006.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_007.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_008.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_009.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_010.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_011.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_012.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_013.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_014.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_015.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_016.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_017.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_018.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_019.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_020.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_021.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_022.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_023.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_024.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_025.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_026.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_027.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_028.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_029.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_030.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_031.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_032.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_033.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_034.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_035.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_036.png}" alt=""/>
+    <img style="display: none;" th:src="@{/img/photo_037.png}" alt=""/>
+
+
     <link th:href="@{/css/index.css}" rel="stylesheet" type="text/css"/>
     <link th:href="@{/css/gallery.css}" rel="stylesheet" type="text/css"/>
+
+
     <script type="text/javascript" th:src="@{/js/index.js}"></script>
     <script type="text/javascript" th:src="@{/js/gallery.js}"></script>
     <script type="text/javascript" th:src="@{/js/parties.js}"></script>
@@ -40,10 +84,11 @@
 
     <div id="explorer" onmousedown="run(this)">
 
-        <button class="waves-effect waves-light btn " id ='birthday' onclick="seek('birthday')">たんじょうび</button>
-        <button class="waves-effect waves-light btn  hide" id ='congratulation' onclick="seek('congratulation')">おめでとう！</button>
+        <button class="waves-effect waves-light btn " id='birthday' onclick="seek('birthday')">たんじょうび</button>
+        <button class="waves-effect waves-light btn  hide" id='congratulation' onclick="seek('congratulation')">おめでとう！
+        </button>
         <button class="waves-effect waves-light btn " onclick="hide()">ぎゃらりー</button>
-        <img id="takara" class="hide"
+        <img id="takara" class="hide takaraman"
              src="https://3.bp.blogspot.com/-ddxthgZW4kI/V2ub9fWGyTI/AAAAAAAA7to/gTB-dajOTbQWLfgw0Le-qDZ6x-OpezTAQCLcB/s800/kaizoku_takarabako.png"></img>
     </div>
 
@@ -53,32 +98,52 @@
 
 
         <div class="variants-container">
-            <div class="variants"><img
-                    src="https://imgur.com/LyztE9I.png" alt=""></div>
-            <div class="variants"><img
-                    src="https://imgur.com/Y4ODQ07.png" alt=""></div>
-            <div class="variants"><img
-                    src="https://imgur.com/7tKeGyZ.png" alt=""></div>
-            <div class="variants"><img
-                    src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/04.jpg" alt="">
-            </div>
-            <div class="variants"><img
-                    src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/05.jpg" alt="">
-            </div>
-            <div class="variants"><img
-                    src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/06.jpg" alt="">
-            </div>
-            <div class="variants"><img
-                    src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/07.jpg" alt="">
-            </div>
-            <div class="variants"><img
-                    src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-2-4/img/08.jpg" alt="">
-            </div>
+            <img src="https://imgur.com/Y4ODQ07.png" alt="">
+            <img src="https://imgur.com/7tKeGyZ.png" alt="">
         </div>
 
     </div>
 
 </div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        let slideIndex = 0;
+        let atIndex = 0;
+        $('.variants-container').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true
+        });
+        $('.takaraman').on('click', function () {
+            slideIndex++;
+            if (slideIndex <= 37 ){
+                let paddingNumber = ('000' + slideIndex).slice(-3);
+                $('.variants-container').slick('slickAdd', '<img src="/img/photo_' + paddingNumber + '.png" alt="">');
+                const jsFrame = new JSFrame();
+                jsFrame.showToast({
+                    html: 'おたからゲット！', align: 'center', duration: 0.05
+                });
+            }else{
+                const jsFrame = new JSFrame();
+                jsFrame.showToast({
+                    html: '全部そろったよ！', align: 'center', duration: 2000
+                });
+            }
 
+        });
+    });
+
+    $('#sssssssss').on('click', function () {
+        party.confetti(this, {
+            count: party.variation.range(20, 40),
+        });
+    });
+
+    const slickInit = () => {
+        $('.variants-container').slick('setPosition');
+    }
+</script>
 </body>
+
+
 </html>

@@ -50,6 +50,7 @@ function galleryView() {
 }
 
 
+
 //
 // document.body.addEventListener("click", function (e) {
 //     party.settings.debug = true;
